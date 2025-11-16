@@ -1,26 +1,25 @@
 body {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
 }
 
-.one {
+.header {
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
 }
 
-.two {
-
+.header-top {
+    display: flex;
+    flex-direction: row;
 }
 
-.three {
-
+.info {
+    
 }
 
-.four {
-
-}
-
-.footer {
-    flex: 0px
+.quote {
+    background-color: #E5E7EB;
 }
