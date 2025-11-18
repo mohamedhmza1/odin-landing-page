@@ -11,6 +11,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 350px;
+    padding: 20px;
 }
 
 .header-top {
@@ -41,20 +43,25 @@ a {
 }
 
 .header-bottom {
-    width: 100%;
+    width: 50%;
     display: flex;
     padding: 0 75px;
     flex-direction: row;
+
 }
 
 .hb-left {
     display: flex;
     flex-direction: column;
+    padding: 0 0;
 }
 
 .hb-right {
     flex: 1;
+    overflow: hidden;
+
 }
+
 
 .hero-main {
     font-size: 48px;
@@ -62,12 +69,22 @@ a {
     font-weight: 900px;
 }
 
+.hero-2nd {
+    color: #E5E7EB;
+    font-size: 18px;
+}
 
 
 
 
-
-
+ button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 600;
+    height: 30px;
+    width: 110px;
+    border-radius: 10px;
+ }
 
 
 .info {
