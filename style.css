@@ -56,12 +56,6 @@ a {
     padding: 0 0;
 }
 
-.hb-right {
-    flex: 1;
-    overflow: hidden;
-
-}
-
 
 .hero-main {
     font-size: 48px;
@@ -93,6 +87,46 @@ a {
 
 .quote {
     background-color: #E5E7EB;
+    
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.quotep {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300px;
+}
+
+.author {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.final {
+    padding: 50px;
+}
+
+.boxed {
+    background-color: #3882F6;
+    color: white;
+    padding: 40px 50px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+}
+
+.call {
+    font-weight: 800px;
+    font-size: 24px;
+}
+
+.subcall {
+    font-size: 18px
 }
 
 .footer {
